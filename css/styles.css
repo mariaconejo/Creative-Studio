@@ -89,8 +89,6 @@ p{
 }
 
 
-
-
 /*Header*/
 
 #logo{
@@ -180,3 +178,21 @@ p{
     font-size: 12px;
     text-decoration: none;
 }
+
+/* PORTFOLIO */
+
+.box-img{
+
+    width: 214.5;
+    float: left;
+}
+
+.box-img a, .box-img img{
+
+    display: block;
+}
+
+.box-img + .box-img{
+    margin-left: 33px;
+}
+
