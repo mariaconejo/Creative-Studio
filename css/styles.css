@@ -4,42 +4,91 @@ body{
 
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-}
-
-html{
-
     border-top: 17px solid #090909;
 }
 
 h2{
 
     font-size: 18px;
-    color: #090909;
-    border-bottom: 6px solid #090909;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    background-image: url('../img/arrow.png');
-    background-repeat: no-repeat;
+    padding-left: 30px;
     background-position: 0 7px;
 }
 
+h3{
+
+    font-size: 12px ;
+    padding-left: 23px;
+    background-size: 8px;
+    background-position: 0 5px;
+}
+
+h2,h3{
+
+    text-transform: uppercase;
+    color:  #090909;
+    padding-bottom: 12px;
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+}
+
+p{
+    
+    color:  #5d5d5d;
+    font-size: 12px;
+    line-height: 15px;
+}
 /*Helpers*/
 
 .wrapper{
+
     width: 960px;
     margin: 0 auto;
 }
 
 .clearfix::after{
+
     content: "";
     clear: both;
     display: table;
 }
 
 .block{
+
     padding: 20px 0 15px;
     border-bottom: 1px solid #c0c0c0;
 }
+
+.title-border{
+
+    border-bottom: 6px solid #090909;
+}
+
+.link-arrow{
+
+    color:  #fe9b00;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.link-arrow:hover{
+
+    text-decoration: underline;
+}
+
+.link-img{
+
+    width: 9px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+
+}
+
+
 
 
 /*Header*/
@@ -53,12 +102,14 @@ h2{
 
 
 #wrapper-menu{
+
     float: right;
     width: 656px;
     position: relative;
 }
 
 #menu-email{
+
     font-size: 13px;
     color: #999898;
     text-decoration: none;
@@ -68,24 +119,64 @@ h2{
 }
 
 #menu-list{
+
     list-style: none;
     margin: 45px 0 0 0;
     padding: 0;
 }
 
 #menu-list li{
+
     float: left;
 
 }
 
 #menu-list li + li{
+
     margin-left: 62.5px;
 }
 
 #menu-list a{
+
     font-size: 12px;
     font-weight: bold;
     color: #fe9b00;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/* MAIN */
+
+.box{
+
+    width: 280px;
+    float: left;
+}
+
+.box + .box{
+
+    margin-left: 60px;
+}
+
+#box-check{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#box-check li{
+
+    padding-left: 30px;
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.box-link{
+
+    color:  #090909;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
 }
