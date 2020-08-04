@@ -196,3 +196,18 @@ p{
     margin-left: 33px;
 }
 
+/* BLOG */
+
+#blog-updates{
+
+    width:660px;
+    float: left;
+    margin-right: 80px;
+
+}
+
+#social{
+    width: 220px;
+    float: right;
+
+}
