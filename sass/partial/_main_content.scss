@@ -1,0 +1,69 @@
+@import '../config/variables';
+/* Main */
+.box{
+
+    width: 280px;
+    float: left;
+
+
+    .box + .box{
+
+        margin-left: 60px;
+    }
+}
+
+#box-check{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#box-check li{
+
+    padding-left: 30px;
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.box-link{
+
+    color:  $title-color;
+    font-style: italic;
+    font-size: $little-size;
+    text-decoration: none;
+}
+
+/* PORTFOLIO */
+
+.box-img{
+
+    width: 214.5px;
+    float: left;
+}
+
+.box-img a, .box-img img{
+
+    display: block;
+}
+
+.box-img + .box-img{
+    margin-left: 33px;
+}
+
+/* BLOG */
+
+#blog-updates{
+
+    width:660px;
+    float: left;
+    margin-right: 80px;
+
+}
+
+#social{
+    width: 220px;
+    float: right;
+
+}
