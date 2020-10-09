@@ -4,7 +4,7 @@
 #logo{
     
     float: left;
-    width: 183px;
+    width: 20%;
 
 }
 
@@ -12,7 +12,7 @@
 #wrapper-menu{
 
     float: right;
-    width: 656px;
+    width: 70%;
     position: $position-r;
 }
 
@@ -43,9 +43,6 @@
     }
 
     
-
-
-
     li + li{
 
         margin-left: 62.5px;
@@ -59,4 +56,9 @@
     text-decoration: none;
     text-transform: uppercase;
     }
+}
+
+#slider img{
+    max-width: 100%;
+    width: 100%;
 }
